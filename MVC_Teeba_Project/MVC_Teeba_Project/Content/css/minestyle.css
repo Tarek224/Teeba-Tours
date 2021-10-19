@@ -1,0 +1,14 @@
+﻿.ActionLink {
+    color: #fff !important;
+    opacity: 1;
+    visibility: visible;
+    bottom: 0;
+    background: #1a1a1a;
+    border: 2px solid #1a1a1a !important;
+    position: relative;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    margin-left:25%;
+    margin-bottom:15%;
+}
