@@ -1,0 +1,202 @@
+﻿@using MVC_Teeba_Project.Models
+
+@model Tour
+
+@{
+    ViewBag.Title = "TourDetails";
+    ViewBag.HeaderImage +="../Tours/"+ Model.Images.image1;
+}
+
+@section HeaderContent
+{
+    <div class="col-md-12 col-md-offset-0 text-center">
+        <div class="row row-mt-15em">
+            <div class="col-md-12 mt-text animate-box" data-animate-effect="fadeInUp">
+                <h1 style="font-weight:bold">@Model.Title</h1>
+            </div>
+        </div>
+    </div>
+}
+
+<div class="gtco-section" style="padding: 3em 0 ; padding-bottom:0em 0">
+    <div class="gtco-container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12" style="padding-left:25px ; padding-right:25px">
+                <div style="display:block">
+                    <h1 style="font-weight:bold">@Model.Name</h1>
+                    <a href="#" class="ti-heart" style="float:right"></a>
+                </div>
+                <p>
+                    <span class="fa fa-star" style="color: orange"></span>
+                    <span class="fa fa-star" style="color: orange"></span>
+                    <span class="fa fa-star" style="color: orange"></span>
+                    <span class="fa fa-star" style="color: orange"></span>
+                    <span class="fa fa-star"></span>
+                    <a href="#" style="text-decoration:underline">790 Reviews</a>
+                </p>
+                <p>
+                    From <span style="font-weight:bold ; font-size:25px ;color:black ;padding-left:20px">@ViewBag.DiscountPrice</span>
+                    <small style="margin-right: 50px">/LE</small>
+                    OFFERED 10% Saved <span style="text-decoration:line-through ; font-weight:bold">@Model.Price</span>
+                </p>
+                <p>See the highlights of Luxor on this full-day tour of to the East and West Banks of the Nile. Explore the city's magnificent temples, tombs, and monuments in the company of an Egyptologist guide. Includes visits to the Valley of the Kings, Temple of Queen Hatshepsut, and Karnak Temple.</p>
+                <a href="/Tours/BookTour/@Model.ID" class="btn btn-primary btn-block" style="margin-bottom:2em">BOOK</a>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12" style="height:350px">
+                <a href="../../Content/images/Tours/@Model.Images.image1" class="fh5co-card-item image-popup">
+                    <figure style="height:300px">
+                        <div class="overlay"><i class="ti-plus"></i></div>
+                        <img src="../../Content/images/Tours/@Model.Images.image1" alt="Image" class="img-responsive">
+                    </figure>
+                    <div class="fh5co-text">
+                        <h2>Booked by 618 travelers!</h2>
+                        <p>Free Cancellation up to 24 hours in advance</p>
+                    </div>
+                </a>
+                <a href="../../Content/images/Tours/Tour1.jpg" class="fh5co-card-item image-popup"></a>
+                <a href="../../Content/images/Tours/Tour2.jpg" class="fh5co-card-item image-popup"></a>
+                <a href="../../Content/images/Tours/Tour3.jpg" class="fh5co-card-item image-popup"></a>
+                <a href="../../Content/images/Tours/Tour4.jpg" class="fh5co-card-item image-popup"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--  ----------------------------Tour Program---------------------------------------------  -->
+
+<div class="gtco-section" style="padding: 3em 0 ; padding-bottom:0em 0">
+    <div class="gtco-container">
+        <div class="row">
+            <div class="col-sm-12">
+                <ul class="nav nav-tabs" style="background-color:#40403E ; border-radius:4px">
+                    <li class="active"><a href="#program" data-toggle="tab" style="font-weight:bold">Tour Program</a></li>
+                    <li><a href="#info" data-toggle="tab" style="font-weight:bold">Information</a></li>
+                    <li><a href="#review" data-toggle="tab" style="font-weight:bold">Review</a></li>
+                </ul>
+            </div>
+
+            <div class="tab-content">
+
+                <div class="tab-pane fade active in" id="program">
+                    @{
+                        Html.RenderAction("TourPrograms", "Tours", new { id = Model.ID });
+                    }
+                </div>
+
+                <div class="tab-pane fade" id="info">
+                    <div class="gtco-section" style="padding: 3em 0 ; padding-bottom:0em 0">
+                        <div class="gtco-container">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12" style="padding-left:25px ; padding-right:25px">
+                                    <h3 style="font-weight:bold">Inclusion</h3>
+                                    <ul>
+                                        <li>All transfers by air-conditioned car</li>
+                                        <li>Expert tour guide</li>
+                                        <li>Pick up services from your hotel in Luxor and return</li>
+                                        <li>All Fees and Taxes</li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-12" style="height:350px">
+                                    <h3 style="font-weight:bold">Additional Info</h3>
+                                    <ul>
+                                        <li>Service animals allowed</li>
+                                        <li>wheelchair accessible</li>
+                                        <li>This is a private tour/activity</li>
+                                        <li>Only your group will participate</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="review">
+                    <div class="gtco-section" style="padding: 3em 0 ; padding-bottom:0em 0">
+                        <div class="gtco-container">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12" style="padding-left:25px ; padding-right:25px">
+                                    <p><i class="fa fa-clock-o"></i>  @DateTime.Now </p>
+                                    <p>you can wright what make other travelers have to read about this operator.</p>
+                                    <p><b>Write Your Review</b></p>
+                                    <div class="form-group" style="display:block ; padding-bottom:20px">
+                                        <textarea cols="10" rows="5" class="form-control"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-12" style="height:350px">
+
+                                    <form class="form-inline">
+                                        <div class="form-group" style="display:block ; padding-bottom:20px">
+                                            <input type="email" class="form-control" id="email" placeholder="Your Email" style="width:400px">
+                                        </div>
+                                        <div class="form-group" style="display:block ; padding-bottom:20px">
+                                            <input type="text" class="form-control" id="name" placeholder="Your Name" style="width:400px">
+                                        </div>
+                                        <div class="form-group" style="display:block ; padding-bottom:20px">
+                                            <button type="submit" class="btn btn-primary">Confirm</button>
+                                        </div>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--  ----------------------------End Of Tour Program---------------------------------------------  -->
+
+<div class="gtco-section" style="padding: 3em 0 ; padding-bottom:0em 0">
+    <div class="gtco-container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12" style="box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19); padding: 3em 3em">
+                <h1>Key Details</h1>
+                <p style="border-bottom:1px solid #ddd">
+                    <i class="ti-time" style="color:black ; padding-right:10px"></i> Duration: @Model.Num_Days Days
+                </p>
+                <p style="border-bottom:1px solid #ddd">
+                    <i class="icon-delete" style="color:black ; padding-right:10px"></i> Free Cancelation up to 24 hours in advance
+                </p>
+                <p style="border-bottom:1px solid #ddd">
+                    <i class="ti-truck" style="color:black ; padding-right:10px"></i> air-conditioned car transfer
+                </p>
+                <p style="border-bottom:1px solid #ddd">
+                    <i class="icon-language" style="color:black ; padding-right:10px"></i> Languages Offered: Arabic, English, French
+                </p>
+                <p style="border-bottom:1px solid #ddd">
+                    <i class="ti-ticket" style="color:black ; padding-right:10px"></i> Mobile Ticket Accepted
+                </p>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12" style="box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19); padding: 3em 3em">
+                <h1>Why Book From Us</h1>
+                <p style="border-bottom:1px solid #ddd">
+                    <i class="ti-book" style="color:black ; padding-right:10px"></i> Reserve Now & Pay Later
+                </p>
+                <p style="border-bottom:1px solid #ddd">
+                    <i class="icon-delete" style="color:black ; padding-right:10px"></i> Free Cancelation up to 24 hours in advance
+                </p>
+                <p style="border-bottom:1px solid #ddd">
+                    <i class="ti-money" style="color:black ; padding-right:10px"></i> Low Price Guarantee
+                </p>
+                <p style="border-bottom:1px solid #ddd">
+                    <i class="ti-truck" style="color:black ; padding-right:10px"></i> No Booking Fees
+                </p>
+                <p style="border-bottom:1px solid #ddd">
+                    <i class="icon-lock" style="color:black ; padding-right:10px"></i> Secure Payments
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+

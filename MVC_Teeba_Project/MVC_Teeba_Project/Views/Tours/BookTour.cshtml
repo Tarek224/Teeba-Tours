@@ -1,0 +1,152 @@
+﻿@using MVC_Teeba_Project.Models
+
+@model Passenger
+
+@{
+    ViewBag.Title = "BookTour";
+    ViewBag.HeaderImage += "../Tours/" + ViewBag.TourBooked.Images.image1;
+}
+
+@section HeaderContent
+{
+    <div class="col-md-12 col-md-offset-0 text-center">
+        <div class="row row-mt-15em">
+            <div class="col-md-12 mt-text animate-box" data-animate-effect="fadeInUp">
+                <h1 style="font-weight:bold">@ViewBag.TourBooked.Title</h1>
+            </div>
+        </div>
+    </div>
+}
+
+<div class="gtco-section" style="padding: 5em 0">
+    <div class="gtco-container" style="box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19); padding: 3em 3em ">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                @using (Html.BeginForm("BookTour", "Tours", new { TourId = ViewBag.TourBooked.ID }, FormMethod.Post))
+                {
+                    @Html.AntiForgeryToken();
+
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            @Html.LabelFor(model => model.Name)
+                            @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            @Html.LabelFor(model => model.Address)
+                            @Html.EditorFor(model => model.Address, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Address, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            @Html.LabelFor(model => model.Age)
+                            @Html.EditorFor(model => model.Age, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Age, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            @Html.LabelFor(model => model.National_ID)
+                            @Html.EditorFor(model => model.National_ID,"", new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.National_ID, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                            @Html.LabelFor(model => model.Phone)
+                            @Html.EditorFor(model => model.Phone, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Phone, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <input type="submit" class="btn btn-primary btn-block" value="Book">
+                        </div>
+                    </div>
+                }
+                <div class="row form-group">
+                    <div class="col-md-12">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#exampleModal">
+                            Add Companion
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Add A Companion</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="gtco-section" style="padding: 5em 0">
+                                        <div class="gtco-container" style="box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19); padding: 3em 3em ">
+                                            <div class="row">
+                                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                                    @using (Html.BeginForm("SetDependants", "Tours", new { TourId = ViewBag.TourBooked.ID }, FormMethod.Post, null))
+                                                    {
+                                                        @Html.AntiForgeryToken()
+
+                                                        <div class="modal-body">
+                                                            <div style="width:100%;height:100% ; text-align:center">
+
+                                                                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                                                                <div class="row form-group">
+                                                                    <div class="col-md-12">
+                                                                        @Html.Label("Dependant Name", "Name", null)
+                                                                        @Html.TextBox("Name", null, new { htmlAttributes = new { @class = "form-control" } })
+                                                                        @Html.ValidationMessage("Name", new { @class = "text-danger" })
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row form-group">
+                                                                    <div class="col-md-12">
+                                                                        @Html.Label("Dependant National ID (Optional)", "National_ID", null)
+                                                                        @Html.TextBox("National_ID", null, new { htmlAttributes = new { @class = "form-control" } })
+                                                                        @Html.ValidationMessage("National_ID", new { @class = "text-danger" })
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row form-group">
+                                                                    <div class="col-md-12">
+                                                                        @Html.Label("Dependant Age", "Age", null)
+                                                                        @Html.TextBox("Age", null, new { htmlAttributes = new { @class = "form-control" } })
+                                                                        @Html.ValidationMessage("Age", new { @class = "text-danger" })
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                            <input type="submit" class="btn btn-primary" value="Save Changes" />
+                                                        </div>
+                                                    }
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                                 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div style="display:flex;flex-direction:column">
+                    <img src="~/Content/images/Home/Phiala1.jpg" style="width:100% ; height:50%" />
+                    <img src="~/Content/images/Home/NileTrip2.jpg" style="width:100% ; height:50%" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

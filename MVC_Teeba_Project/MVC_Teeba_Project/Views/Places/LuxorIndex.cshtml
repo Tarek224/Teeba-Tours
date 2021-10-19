@@ -1,0 +1,78 @@
+﻿@using MVC_Teeba_Project.Models
+
+@model Place
+
+@{
+    ViewBag.Title = "Luxor";
+    ViewBag.HeaderImage = "LuxorHeader.jpg";
+}
+
+@section HeaderContent
+{
+    <div class="col-md-12 col-md-offset-0 text-center">
+        <div class="row row-mt-15em">
+
+            <div class="col-md-12 mt-text animate-box" data-animate-effect="fadeInUp">
+                <h1 style="font-weight:bold">Luxor City</h1>
+            </div>
+        </div>
+
+    </div>
+}
+
+<div class="gtco-section" style="padding: 5em 0 ">
+    <div class="gtco-container" style="box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19); padding: 3em 3em">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12" style="padding-left:25px ; padding-right:25px">
+                <h1 style="font-weight:bold ; text-align:center">About Luxor</h1>
+                <p style="font-size:20px ; color:rgba(0, 0, 0, 0.7)" id="translation">
+                    Luxor, or the city of civilization, or the open temple is one of the most important tourism cities in Egypt at all, as it is as old as history itself. Wherever you go in Luxor, you will find a talking monument of a great civilization, and why not? It is "good", the capital of the ancient Pharaonic state, and it has the most important Pharaonic temples and monuments.
+                    Luxor City The city of Luxor does not attract culture and history enthusiasts only because of its enormous cultural heritage, but at the same time it offers tourists many surprises, most notably cruise trips in Luxor on the Nile River, which bisects it in half, and enjoying the most beautiful landscapes, as well as flying balloon trips that give you the most beautiful view Over the city from the top, and of course, we do not forget the stagecoach, the most popular means of transportation in Luxor, and above all the mild climate in winter, which made Luxor a global winter like no other.
+                </p>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12" style="height:650px">
+                <a href="../../Content/images/Luxor/Luxor1.jpg" class="fh5co-card-item image-popup">
+                    <figure style="height:550px">
+                        <div class="overlay"><i class="ti-plus"></i></div>
+                        <img src="../../Content/images/Places/Luxor1.jpg" alt="Image" class="img-responsive">
+                    </figure>
+                    <div class="fh5co-text">
+                        <h2 style="font-weight:bold">Start Planning For Luxor</h2>
+                        <p>Create a Trip to save and organize all of your travel ideas, and see them on a map</p>
+                    </div>
+                </a>
+                <a href="../../Content/images/Places/Luxor2.jpg" class="fh5co-card-item image-popup"></a>
+                <a href="../../Content/images/Places/Luxor3.jpg" class="fh5co-card-item image-popup"></a>
+                <a href="../../Content/images/Places/Luxor4.jpg" class="fh5co-card-item image-popup"></a>
+                <a href="../../Content/images/Places/Luxor5.jpg" class="fh5co-card-item image-popup"></a>
+                <a href="../../Content/images/Places/Luxor6.jpg" class="fh5co-card-item image-popup"></a>
+                <a href="../../Content/images/Places/Luxor7.jpg" class="fh5co-card-item image-popup"></a>
+                <a href="../../Content/images/Places/Luxor8.jpg" class="fh5co-card-item image-popup"></a>
+                <a href="../../Content/images/Places/Luxor9.jpg" class="fh5co-card-item image-popup"></a>
+                <a href="../../Content/images/Places/Luxor10.jpg" class="fh5co-card-item image-popup"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="gtco-section">
+    <div class="gtco-container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+                <h1 style="font-weight:bold">Trip With Your Favourite Destination Luxor</h1>
+                <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+            </div>
+        </div>
+        <div class="row">
+            @{ 
+                Html.RenderAction("AllPlaces", "Home" , new { location = Location.Luxor});
+            }
+        </div>
+    </div>
+</div>
+
+@section scripts
+{
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+}

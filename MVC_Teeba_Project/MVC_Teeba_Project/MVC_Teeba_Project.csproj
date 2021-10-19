@@ -1,0 +1,667 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{13C8F94C-52AD-4971-8FBC-D7A151B8144D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MVC_Teeba_Project</RootNamespace>
+    <AssemblyName>MVC_Teeba_Project</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.4\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.4\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.2\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.2.2\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.2\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.4.0.0\lib\net451\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.4.0.0\lib\net451\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>..\packages\Microsoft.Owin.Security.4.0.0\lib\net451\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies">
+      <HintPath>..\packages\Microsoft.Owin.Security.Facebook.4.0.0\lib\net451\Microsoft.Owin.Security.Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.4.0.0\lib\net451\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Google">
+      <HintPath>..\packages\Microsoft.Owin.Security.Google.4.0.0\lib\net451\Microsoft.Owin.Security.Google.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Twitter">
+      <HintPath>..\packages\Microsoft.Owin.Security.Twitter.4.0.0\lib\net451\Microsoft.Owin.Security.Twitter.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.MicrosoftAccount">
+      <HintPath>..\packages\Microsoft.Owin.Security.MicrosoftAccount.4.0.0\lib\net451\Microsoft.Owin.Security.MicrosoftAccount.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.4.0.0\lib\net451\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\IdentityConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\PlacesController.cs" />
+    <Compile Include="Controllers\ToursController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202108282307252_update.cs" />
+    <Compile Include="Migrations\202108282307252_update.Designer.cs">
+      <DependentUpon>202108282307252_update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\Images.cs" />
+    <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\Teeba.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Startup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\css\animate.css" />
+    <Content Include="Content\css\bootstrap-datepicker.min.css" />
+    <Content Include="Content\css\bootstrap.css" />
+    <Content Include="Content\css\flexslider.css" />
+    <Content Include="Content\css\icomoon.css" />
+    <Content Include="Content\css\magnific-popup.css" />
+    <Content Include="Content\css\minestyle.css" />
+    <Content Include="Content\css\mystyle.css" />
+    <Content Include="Content\css\owl.carousel.min.css" />
+    <Content Include="Content\css\owl.theme.default.min.css" />
+    <Content Include="Content\css\style.css" />
+    <Content Include="Content\css\themify-icons.css" />
+    <Content Include="Content\fonts\bootstrap\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\fonts\icomoon\icomoon.svg" />
+    <Content Include="Content\fonts\themify-icons\themify.svg" />
+    <Content Include="Content\images\Asswan\AbuSimble1.jpg" />
+    <Content Include="Content\images\Asswan\AbuSimble2.jpg" />
+    <Content Include="Content\images\Asswan\AbuSimble3.jpg" />
+    <Content Include="Content\images\Asswan\AbuSimble4.jpg" />
+    <Content Include="Content\images\Asswan\AbuSimble5.jpg" />
+    <Content Include="Content\images\Asswan\Aswan1.jpg" />
+    <Content Include="Content\images\Asswan\Aswan10.jpg" />
+    <Content Include="Content\images\Asswan\Aswan2.jpg" />
+    <Content Include="Content\images\Asswan\Aswan3.jpg" />
+    <Content Include="Content\images\Asswan\Aswan4.jpg" />
+    <Content Include="Content\images\Asswan\Aswan5.jpg" />
+    <Content Include="Content\images\Asswan\Aswan6.jpg" />
+    <Content Include="Content\images\Asswan\Aswan7.jpg" />
+    <Content Include="Content\images\Asswan\Aswan8.jpg" />
+    <Content Include="Content\images\Asswan\Aswan9.jpg" />
+    <Content Include="Content\images\Asswan\Komompo1.jpg" />
+    <Content Include="Content\images\Asswan\Komompo2.jpg" />
+    <Content Include="Content\images\Asswan\Komompo3.jpg" />
+    <Content Include="Content\images\Asswan\Nile1.jpg" />
+    <Content Include="Content\images\Asswan\Nile2.jpg" />
+    <Content Include="Content\images\Asswan\Nile3.jpg" />
+    <Content Include="Content\images\Asswan\Nile4.jpg" />
+    <Content Include="Content\images\Asswan\NileTrip1.jpg" />
+    <Content Include="Content\images\Asswan\NileTrip2.jpg" />
+    <Content Include="Content\images\Asswan\NileTrip3.jpg" />
+    <Content Include="Content\images\Asswan\NileTrip4.jpg" />
+    <Content Include="Content\images\Asswan\NileTrip5.jpg" />
+    <Content Include="Content\images\Asswan\NileTrip6.jpg" />
+    <Content Include="Content\images\Asswan\NileTrip7.jpg" />
+    <Content Include="Content\images\Asswan\Nobian1.jpg" />
+    <Content Include="Content\images\Asswan\Nobian2.jpg" />
+    <Content Include="Content\images\Asswan\Nobian3.jpg" />
+    <Content Include="Content\images\Asswan\Nobian4.jpg" />
+    <Content Include="Content\images\Asswan\Nobian5.jpg" />
+    <Content Include="Content\images\Asswan\Nobian6.jpg" />
+    <Content Include="Content\images\Asswan\NubianPeopel1.jpg" />
+    <Content Include="Content\images\Asswan\NubianPeopel2.jpg" />
+    <Content Include="Content\images\Asswan\NubianPeopel3.jpg" />
+    <Content Include="Content\images\Asswan\NubianPeopel4.jpg" />
+    <Content Include="Content\images\Asswan\NubianPeopel5.jpg" />
+    <Content Include="Content\images\Asswan\NubianPeopel6.jpg" />
+    <Content Include="Content\images\Asswan\Phiala1.jpg" />
+    <Content Include="Content\images\Asswan\Phiala2.jpg" />
+    <Content Include="Content\images\Asswan\Phiala3.jpg" />
+    <Content Include="Content\images\Asswan\Phiala4.jpg" />
+    <Content Include="Content\images\Asswan\Phiala5.jpg" />
+    <Content Include="Content\images\Asswan\Phiala6.jpg" />
+    <Content Include="Content\images\Asswan\Seheil1.jpg" />
+    <Content Include="Content\images\Asswan\Seheil2.jpg" />
+    <Content Include="Content\images\Asswan\Seheil3.jpg" />
+    <Content Include="Content\images\Asswan\Seheil4.jpg" />
+    <Content Include="Content\images\Asswan\Seheil5.jpg" />
+    <Content Include="Content\images\Home\AbuSimble1.jpg" />
+    <Content Include="Content\images\Home\admin.jpg" />
+    <Content Include="Content\images\Home\AswanHeader.jpg" />
+    <Content Include="Content\images\Home\Ballon1.jpg" />
+    <Content Include="Content\images\Home\Banana1.jpg" />
+    <Content Include="Content\images\Home\Contact.jpg" />
+    <Content Include="Content\images\Home\favicon.png" />
+    <Content Include="Content\images\Home\Habu1.jpg" />
+    <Content Include="Content\images\Home\Hatshepsut1.jpg" />
+    <Content Include="Content\images\Home\HomeHeader.jpg" />
+    <Content Include="Content\images\Home\Karnak1.jpg" />
+    <Content Include="Content\images\Home\KingsVally1.jpg" />
+    <Content Include="Content\images\Home\Komompo1.jpg" />
+    <Content Include="Content\images\Home\Luxor1.jpg" />
+    <Content Include="Content\images\Home\LuxorHeader.jpg" />
+    <Content Include="Content\images\Home\LuxorTemple1.jpg" />
+    <Content Include="Content\images\Home\Museum1.jpg" />
+    <Content Include="Content\images\Home\Nile1.jpg" />
+    <Content Include="Content\images\Home\NileTrip1.jpg" />
+    <Content Include="Content\images\Home\NileTrip2.jpg" />
+    <Content Include="Content\images\Home\Nobian1.jpg" />
+    <Content Include="Content\images\Home\Nobles1.jpg" />
+    <Content Include="Content\images\Home\NubianPeopel1.jpg" />
+    <Content Include="Content\images\Home\NubianPeopel3.jpg" />
+    <Content Include="Content\images\Home\Phiala1.jpg" />
+    <Content Include="Content\images\Home\Seheil1.jpg" />
+    <Content Include="Content\images\Home\Tahneet1.jpg" />
+    <Content Include="Content\images\Home\ToursHeader.jpg" />
+    <Content Include="Content\images\img_bg_1.jpg" />
+    <Content Include="Content\images\loader.gif" />
+    <Content Include="Content\images\Luxor\Ballon1.jpg" />
+    <Content Include="Content\images\Luxor\Ballon2.jpg" />
+    <Content Include="Content\images\Luxor\Ballon3.jpg" />
+    <Content Include="Content\images\Luxor\Ballon4.jpg" />
+    <Content Include="Content\images\Luxor\Ballon5.jpg" />
+    <Content Include="Content\images\Luxor\Ballon6.jpg" />
+    <Content Include="Content\images\Luxor\Banana1.jpg" />
+    <Content Include="Content\images\Luxor\Banana2.jpg" />
+    <Content Include="Content\images\Luxor\Banana3.jpg" />
+    <Content Include="Content\images\Luxor\Banana4.jpg" />
+    <Content Include="Content\images\Luxor\Banana5.jpg" />
+    <Content Include="Content\images\Luxor\Banana6.jpg" />
+    <Content Include="Content\images\Luxor\Banana7.jpg" />
+    <Content Include="Content\images\Luxor\Habu1.jpg" />
+    <Content Include="Content\images\Luxor\Habu2.jpg" />
+    <Content Include="Content\images\Luxor\Habu3.jpg" />
+    <Content Include="Content\images\Luxor\Habu4.jpg" />
+    <Content Include="Content\images\Luxor\Hatshepsut1.jpg" />
+    <Content Include="Content\images\Luxor\Hatshepsut2.jpg" />
+    <Content Include="Content\images\Luxor\Hatshepsut3.jpg" />
+    <Content Include="Content\images\Luxor\Hatshepsut4.jpg" />
+    <Content Include="Content\images\Luxor\Hatshepsut5.jpg" />
+    <Content Include="Content\images\Luxor\Karnak1.jpg" />
+    <Content Include="Content\images\Luxor\Karnak2.jpg" />
+    <Content Include="Content\images\Luxor\Karnak3.jpg" />
+    <Content Include="Content\images\Luxor\Karnak4.jpg" />
+    <Content Include="Content\images\Luxor\Karnak5.jpg" />
+    <Content Include="Content\images\Luxor\Karnak6.jpg" />
+    <Content Include="Content\images\Luxor\Karnak7.jpg" />
+    <Content Include="Content\images\Luxor\Karnak8.jpg" />
+    <Content Include="Content\images\Luxor\Karnak9.jpg" />
+    <Content Include="Content\images\Luxor\KingsVally1.jpg" />
+    <Content Include="Content\images\Luxor\KingsVally2.jpg" />
+    <Content Include="Content\images\Luxor\KingsVally3.jpg" />
+    <Content Include="Content\images\Luxor\KingsVally4.jpg" />
+    <Content Include="Content\images\Luxor\KingsVally5.jpg" />
+    <Content Include="Content\images\Luxor\KingsVally6.jpg" />
+    <Content Include="Content\images\Luxor\KingsVally7.jpg" />
+    <Content Include="Content\images\Luxor\Luxor1.jpg" />
+    <Content Include="Content\images\Luxor\Luxor10.jpg" />
+    <Content Include="Content\images\Luxor\Luxor2.jpg" />
+    <Content Include="Content\images\Luxor\Luxor3.jpg" />
+    <Content Include="Content\images\Luxor\Luxor4.jpg" />
+    <Content Include="Content\images\Luxor\Luxor5.jpg" />
+    <Content Include="Content\images\Luxor\Luxor6.jpg" />
+    <Content Include="Content\images\Luxor\Luxor7.jpg" />
+    <Content Include="Content\images\Luxor\Luxor8.jpg" />
+    <Content Include="Content\images\Luxor\Luxor9.jpg" />
+    <Content Include="Content\images\Luxor\LuxorTemple1.jpg" />
+    <Content Include="Content\images\Luxor\LuxorTemple2.jpg" />
+    <Content Include="Content\images\Luxor\LuxorTemple3.jpg" />
+    <Content Include="Content\images\Luxor\LuxorTemple4.jpg" />
+    <Content Include="Content\images\Luxor\LuxorTemple5.jpg" />
+    <Content Include="Content\images\Luxor\LuxorTemple6.jpg" />
+    <Content Include="Content\images\Luxor\LuxorTemple7.jpg" />
+    <Content Include="Content\images\Luxor\Museum1.jpg" />
+    <Content Include="Content\images\Luxor\Museum2.jpg" />
+    <Content Include="Content\images\Luxor\Museum3.jpg" />
+    <Content Include="Content\images\Luxor\Museum4.jpg" />
+    <Content Include="Content\images\Luxor\Museum5.jpg" />
+    <Content Include="Content\images\Luxor\Museum6.jpg" />
+    <Content Include="Content\images\Luxor\NileTrip1.jpg" />
+    <Content Include="Content\images\Luxor\NileTrip2.jpg" />
+    <Content Include="Content\images\Luxor\NileTrip3.jpg" />
+    <Content Include="Content\images\Luxor\NileTrip4.jpg" />
+    <Content Include="Content\images\Luxor\NileTrip5.jpg" />
+    <Content Include="Content\images\Luxor\NileTrip6.jpg" />
+    <Content Include="Content\images\Luxor\NileTrip7.jpg" />
+    <Content Include="Content\images\Luxor\Nobles1.jpg" />
+    <Content Include="Content\images\Luxor\Nobles2.jpg" />
+    <Content Include="Content\images\Luxor\Nobles3.jpg" />
+    <Content Include="Content\images\Luxor\Tahneet1.jpg" />
+    <Content Include="Content\images\Luxor\Tahneet2.jpg" />
+    <Content Include="Content\images\Luxor\Tahneet3.jpg" />
+    <Content Include="Content\images\Luxor\Tahneet4.jpg" />
+    <Content Include="Content\images\Luxor\Tahneet5.jpg" />
+    <Content Include="Content\images\Nile_Tour\NileTrip1.jpg" />
+    <Content Include="Content\images\Nile_Tour\NileTrip2.jpg" />
+    <Content Include="Content\images\Nile_Tour\NileTrip3.jpg" />
+    <Content Include="Content\images\Nile_Tour\NileTrip4.jpg" />
+    <Content Include="Content\images\Nile_Tour\NileTrip5.jpg" />
+    <Content Include="Content\images\Nile_Tour\NileTrip6.jpg" />
+    <Content Include="Content\images\Nile_Tour\NileTrip7.jpg" />
+    <Content Include="Content\images\Places\AbuSimble1.jpg" />
+    <Content Include="Content\images\Places\AbuSimble2.jpg" />
+    <Content Include="Content\images\Places\AbuSimble3.jpg" />
+    <Content Include="Content\images\Places\AbuSimble4.jpg" />
+    <Content Include="Content\images\Places\AbuSimble5.jpg" />
+    <Content Include="Content\images\Places\Aswan1.jpg" />
+    <Content Include="Content\images\Places\Aswan10.jpg" />
+    <Content Include="Content\images\Places\Aswan2.jpg" />
+    <Content Include="Content\images\Places\Aswan3.jpg" />
+    <Content Include="Content\images\Places\Aswan4.jpg" />
+    <Content Include="Content\images\Places\Aswan5.jpg" />
+    <Content Include="Content\images\Places\Aswan6.jpg" />
+    <Content Include="Content\images\Places\Aswan7.jpg" />
+    <Content Include="Content\images\Places\Aswan8.jpg" />
+    <Content Include="Content\images\Places\Aswan9.jpg" />
+    <Content Include="Content\images\Places\Ballon1.jpg" />
+    <Content Include="Content\images\Places\Ballon2.jpg" />
+    <Content Include="Content\images\Places\Ballon3.jpg" />
+    <Content Include="Content\images\Places\Ballon4.jpg" />
+    <Content Include="Content\images\Places\Ballon5.jpg" />
+    <Content Include="Content\images\Places\Ballon6.jpg" />
+    <Content Include="Content\images\Places\Banana1.jpg" />
+    <Content Include="Content\images\Places\Banana2.jpg" />
+    <Content Include="Content\images\Places\Banana3.jpg" />
+    <Content Include="Content\images\Places\Banana4.jpg" />
+    <Content Include="Content\images\Places\Banana5.jpg" />
+    <Content Include="Content\images\Places\Banana6.jpg" />
+    <Content Include="Content\images\Places\Banana7.jpg" />
+    <Content Include="Content\images\Places\Habu1.jpg" />
+    <Content Include="Content\images\Places\Habu2.jpg" />
+    <Content Include="Content\images\Places\Habu3.jpg" />
+    <Content Include="Content\images\Places\Habu4.jpg" />
+    <Content Include="Content\images\Places\Hatshepsut1.jpg" />
+    <Content Include="Content\images\Places\Hatshepsut2.jpg" />
+    <Content Include="Content\images\Places\Hatshepsut3.jpg" />
+    <Content Include="Content\images\Places\Hatshepsut4.jpg" />
+    <Content Include="Content\images\Places\Hatshepsut5.jpg" />
+    <Content Include="Content\images\Places\Karnak1.jpg" />
+    <Content Include="Content\images\Places\Karnak2.jpg" />
+    <Content Include="Content\images\Places\Karnak3.jpg" />
+    <Content Include="Content\images\Places\Karnak4.jpg" />
+    <Content Include="Content\images\Places\Karnak5.jpg" />
+    <Content Include="Content\images\Places\Karnak6.jpg" />
+    <Content Include="Content\images\Places\Karnak7.jpg" />
+    <Content Include="Content\images\Places\Karnak8.jpg" />
+    <Content Include="Content\images\Places\Karnak9.jpg" />
+    <Content Include="Content\images\Places\KingsVally1.jpg" />
+    <Content Include="Content\images\Places\KingsVally2.jpg" />
+    <Content Include="Content\images\Places\KingsVally3.jpg" />
+    <Content Include="Content\images\Places\KingsVally4.jpg" />
+    <Content Include="Content\images\Places\KingsVally5.jpg" />
+    <Content Include="Content\images\Places\KingsVally6.jpg" />
+    <Content Include="Content\images\Places\KingsVally7.jpg" />
+    <Content Include="Content\images\Places\Komompo1.jpg" />
+    <Content Include="Content\images\Places\Komompo2.jpg" />
+    <Content Include="Content\images\Places\Komompo3.jpg" />
+    <Content Include="Content\images\Places\Luxor1.jpg" />
+    <Content Include="Content\images\Places\Luxor10.jpg" />
+    <Content Include="Content\images\Places\Luxor2.jpg" />
+    <Content Include="Content\images\Places\Luxor3.jpg" />
+    <Content Include="Content\images\Places\Luxor4.jpg" />
+    <Content Include="Content\images\Places\Luxor5.jpg" />
+    <Content Include="Content\images\Places\Luxor6.jpg" />
+    <Content Include="Content\images\Places\Luxor7.jpg" />
+    <Content Include="Content\images\Places\Luxor8.jpg" />
+    <Content Include="Content\images\Places\Luxor9.jpg" />
+    <Content Include="Content\images\Places\LuxorTemple1.jpg" />
+    <Content Include="Content\images\Places\LuxorTemple2.jpg" />
+    <Content Include="Content\images\Places\LuxorTemple3.jpg" />
+    <Content Include="Content\images\Places\LuxorTemple4.jpg" />
+    <Content Include="Content\images\Places\LuxorTemple5.jpg" />
+    <Content Include="Content\images\Places\LuxorTemple6.jpg" />
+    <Content Include="Content\images\Places\LuxorTemple7.jpg" />
+    <Content Include="Content\images\Places\Museum1.jpg" />
+    <Content Include="Content\images\Places\Museum2.jpg" />
+    <Content Include="Content\images\Places\Museum3.jpg" />
+    <Content Include="Content\images\Places\Museum4.jpg" />
+    <Content Include="Content\images\Places\Museum5.jpg" />
+    <Content Include="Content\images\Places\Museum6.jpg" />
+    <Content Include="Content\images\Places\Nile1.jpg" />
+    <Content Include="Content\images\Places\Nile2.jpg" />
+    <Content Include="Content\images\Places\Nile3.jpg" />
+    <Content Include="Content\images\Places\Nile4.jpg" />
+    <Content Include="Content\images\Places\NileTrip1.jpg" />
+    <Content Include="Content\images\Places\NileTrip2.jpg" />
+    <Content Include="Content\images\Places\NileTrip3.jpg" />
+    <Content Include="Content\images\Places\NileTrip4.jpg" />
+    <Content Include="Content\images\Places\NileTrip5.jpg" />
+    <Content Include="Content\images\Places\NileTrip6.jpg" />
+    <Content Include="Content\images\Places\NileTrip7.jpg" />
+    <Content Include="Content\images\Places\Nobian1.jpg" />
+    <Content Include="Content\images\Places\Nobian2.jpg" />
+    <Content Include="Content\images\Places\Nobian3.jpg" />
+    <Content Include="Content\images\Places\Nobian4.jpg" />
+    <Content Include="Content\images\Places\Nobian5.jpg" />
+    <Content Include="Content\images\Places\Nobian6.jpg" />
+    <Content Include="Content\images\Places\Nobles1.jpg" />
+    <Content Include="Content\images\Places\Nobles2.jpg" />
+    <Content Include="Content\images\Places\Nobles3.jpg" />
+    <Content Include="Content\images\Places\NubianPeopel1.jpg" />
+    <Content Include="Content\images\Places\NubianPeopel2.jpg" />
+    <Content Include="Content\images\Places\NubianPeopel3.jpg" />
+    <Content Include="Content\images\Places\NubianPeopel4.jpg" />
+    <Content Include="Content\images\Places\NubianPeopel5.jpg" />
+    <Content Include="Content\images\Places\NubianPeopel6.jpg" />
+    <Content Include="Content\images\Places\Phiala1.jpg" />
+    <Content Include="Content\images\Places\Phiala2.jpg" />
+    <Content Include="Content\images\Places\Phiala3.jpg" />
+    <Content Include="Content\images\Places\Phiala4.jpg" />
+    <Content Include="Content\images\Places\Phiala5.jpg" />
+    <Content Include="Content\images\Places\Phiala6.jpg" />
+    <Content Include="Content\images\Places\Seheil1.jpg" />
+    <Content Include="Content\images\Places\Seheil2.jpg" />
+    <Content Include="Content\images\Places\Seheil3.jpg" />
+    <Content Include="Content\images\Places\Seheil4.jpg" />
+    <Content Include="Content\images\Places\Seheil5.jpg" />
+    <Content Include="Content\images\Places\Tahneet1.jpg" />
+    <Content Include="Content\images\Places\Tahneet2.jpg" />
+    <Content Include="Content\images\Places\Tahneet3.jpg" />
+    <Content Include="Content\images\Places\Tahneet4.jpg" />
+    <Content Include="Content\images\Places\Tahneet5.jpg" />
+    <Content Include="Content\images\Tours\Tour1.jpg" />
+    <Content Include="Content\images\Tours\Tour10.jpg" />
+    <Content Include="Content\images\Tours\Tour11.jpg" />
+    <Content Include="Content\images\Tours\Tour12.jpg" />
+    <Content Include="Content\images\Tours\Tour13.jpg" />
+    <Content Include="Content\images\Tours\Tour2.jpg" />
+    <Content Include="Content\images\Tours\Tour3.jpg" />
+    <Content Include="Content\images\Tours\Tour4.jpg" />
+    <Content Include="Content\images\Tours\Tour5.jpg" />
+    <Content Include="Content\images\Tours\Tour6.jpg" />
+    <Content Include="Content\images\Tours\Tour7.jpg" />
+    <Content Include="Content\images\Tours\Tour8.jpg" />
+    <Content Include="Content\images\Tours\Tour9.jpg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\css\bootstrap.css.map" />
+    <Content Include="Content\css\style.css.map" />
+    <Content Include="Content\fonts\bootstrap\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\fonts\bootstrap\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\fonts\bootstrap\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\fonts\bootstrap\glyphicons-halflings-regular.woff2" />
+    <Content Include="Content\fonts\icomoon\icomoon.eot" />
+    <Content Include="Content\fonts\icomoon\icomoon.ttf" />
+    <Content Include="Content\fonts\icomoon\icomoon.woff" />
+    <Content Include="Content\fonts\themify-icons\themify.eot" />
+    <Content Include="Content\fonts\themify-icons\themify.ttf" />
+    <Content Include="Content\fonts\themify-icons\themify.woff" />
+    <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.3.1.js" />
+    <Content Include="Scripts\jquery-3.3.1.min.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\js\bootstrap-datepicker.min.js" />
+    <Content Include="Scripts\js\bootstrap.min.js" />
+    <Content Include="Scripts\js\google_map.js" />
+    <Content Include="Scripts\js\jquery.countTo.js" />
+    <Content Include="Scripts\js\jquery.easing.1.3.js" />
+    <Content Include="Scripts\js\jquery.easypiechart.min.js" />
+    <Content Include="Scripts\js\jquery.magnific-popup.min.js" />
+    <Content Include="Scripts\js\jquery.min.js" />
+    <Content Include="Scripts\js\jquery.stellar.min.js" />
+    <Content Include="Scripts\js\jquery.waypoints.min.js" />
+    <Content Include="Scripts\js\magnific-popup-options.js" />
+    <Content Include="Scripts\js\main.js" />
+    <Content Include="Scripts\js\modernizr-2.6.2.min.js" />
+    <Content Include="Scripts\js\owl.carousel.min.js" />
+    <Content Include="Scripts\js\respond.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
+    <Content Include="Views\Account\ConfirmEmail.cshtml" />
+    <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
+    <Content Include="Views\Account\ExternalLoginFailure.cshtml" />
+    <Content Include="Views\Account\ForgotPassword.cshtml" />
+    <Content Include="Views\Account\ForgotPasswordConfirmation.cshtml" />
+    <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Account\Register.cshtml" />
+    <Content Include="Views\Account\ResetPassword.cshtml" />
+    <Content Include="Views\Account\ResetPasswordConfirmation.cshtml" />
+    <Content Include="Views\Account\SendCode.cshtml" />
+    <Content Include="Views\Account\VerifyCode.cshtml" />
+    <Content Include="Views\Manage\AddPhoneNumber.cshtml" />
+    <Content Include="Views\Manage\ChangePassword.cshtml" />
+    <Content Include="Views\Manage\Index.cshtml" />
+    <Content Include="Views\Manage\ManageLogins.cshtml" />
+    <Content Include="Views\Manage\SetPassword.cshtml" />
+    <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
+    <Content Include="Views\Shared\Lockout.cshtml" />
+    <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Places\Create.cshtml" />
+    <Content Include="Views\Places\Delete.cshtml" />
+    <Content Include="Views\Places\Details.cshtml" />
+    <Content Include="Views\Places\Edit.cshtml" />
+    <Content Include="Views\Places\LuxorIndex.cshtml" />
+    <Content Include="Views\Shared\_Places.cshtml" />
+    <Content Include="Views\Places\AswanIndex.cshtml" />
+    <Content Include="Views\Places\PlaceDetails.cshtml" />
+    <Content Include="Views\Tours\Create.cshtml" />
+    <Content Include="Views\Tours\Delete.cshtml" />
+    <Content Include="Views\Tours\Details.cshtml" />
+    <Content Include="Views\Tours\Edit.cshtml" />
+    <Content Include="Views\Tours\Index.cshtml" />
+    <Content Include="Views\Tours\TourDetails.cshtml" />
+    <Content Include="Views\Shared\_ToursProgram.cshtml" />
+    <Content Include="Views\Tours\BookTour.cshtml" />
+    <Content Include="Views\Tours\AdminIndex.cshtml" />
+    <Content Include="Views\Places\AdminIndex.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202108282307252_update.resx">
+      <DependentUpon>202108282307252_update.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>62929</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:62929/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

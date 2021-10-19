@@ -1,0 +1,185 @@
+﻿
+@{
+    ViewBag.Title = "Home";
+    ViewBag.HeaderImage = "HomeHeader.jpg";
+}
+
+@section HeaderContent
+        {
+    <div class="col-md-12 col-md-offset-0 text-left">
+        <div class="row row-mt-15em">
+            <div class="col-md-7 mt-text animate-box" data-animate-effect="fadeInUp">
+                <h1>Planing Trip To Anywhere in The World?</h1>
+            </div>
+            <div class="col-md-4 col-md-push-1 animate-box" data-animate-effect="fadeInRight">
+                <div class="form-wrap">
+                    <div class="tab">
+
+                        <div class="tab-content">
+                            <div class="tab-content-inner active" data-content="signup">
+                                <h3>Search For A Trip</h3>
+
+                                <form action="/Tours/Index">
+                                    <div class="row form-group">
+                                        <div class="col-md-12">
+                                            <label for="distination">Destination</label>
+                                            <select name="#" id="distination" class="form-control">
+                                                <option value="" selected>Luxor</option>
+                                                <option value="">Asswan</option>
+                                                <option value="">Luxor And Asswan</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row form-group">
+                                        <div class="col-md-12">
+                                            <label for="price">Price</label>
+                                            <select name="#" id="price" class="form-control">
+                                                <option value="" selected>1000$:2000$</option>
+                                                <option value="">2000$:3000$</option>
+                                                <option value="">3000$:4000$</option>
+                                                <option value="">Higher Than 4000$</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="row form-group">
+                                        <div class="col-md-12">
+                                            <label for="date-start">Date Travel</label>
+                                            <input type="text" id="date-start" class="form-control">
+                                        </div>
+                                    </div>
+
+                                    <div class="row form-group">
+                                        <div class="col-md-12">
+                                            <input type="submit" class="btn btn-primary btn-block" value="Search">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<div class="gtco-section">
+    <div class="gtco-container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+                <h2>Most Popular Destination</h2>
+                <p>The most visited place among most visitors and the most promoted for tourism to enjoy.</p>
+            </div>
+        </div>
+        <div class="row">
+            @*@{
+                Html.RenderAction("PlacesForHome", "Home");
+            }*@
+        </div>
+    </div>
+</div>
+
+<div id="gtco-features">
+    <div class="gtco-container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
+                <h2>Additional Servieces</h2>
+                <p>Some of the additional services provided by the site during each trip that anyone will book through the site.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <div class="feature-center animate-box" data-animate-effect="fadeIn">
+                    <span class="icon">
+                        <i>1</i>
+                    </span>
+                    <h3>Luxury Transport</h3>
+                    <p>
+                        The site provides excellent transportation service wherever you are inside or outside Egypt.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="feature-center animate-box" data-animate-effect="fadeIn">
+                    <span class="icon">
+                        <i>2</i>
+                    </span>
+                    <h3>High class Hotels</h3>
+                    <p>
+                        We offer our customers the best hotels suitable for staying all day long, with all available privileges.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="feature-center animate-box" data-animate-effect="fadeIn">
+                    <span class="icon">
+                        <i>3</i>
+                    </span>
+                    <h3>Affordable Pricing</h3>
+                    <p>
+                        We offer our customers the best prices suitable for all categories with offers always in order to make our customers happy.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="gtco-cover gtco-cover-sm" style="background-image: url(../../Content/images/img_bg_1.jpg)" data-stellar-background-ratio="0.5">
+    <div class="overlay"></div>
+    <div class="gtco-container text-center">
+        <div class="display-t">
+            <div class="display-tc">
+                <h1>We have high quality services that you will surely love!</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="gtco-counter" class="gtco-section">
+    <div class="gtco-container">
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
+                <h2>Our Success</h2>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-3 col-sm-6 animate-box" data-animate-effect="fadeInUp">
+                <div class="feature-center">
+                    <span class="counter js-counter" data-from="0" data-to="196" data-speed="5000" data-refresh-interval="50">1</span>
+                    <span class="counter-label">Destination</span>
+
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 animate-box" data-animate-effect="fadeInUp">
+                <div class="feature-center">
+                    <span class="counter js-counter" data-from="0" data-to="97" data-speed="5000" data-refresh-interval="50">1</span>
+                    <span class="counter-label">Hotels</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 animate-box" data-animate-effect="fadeInUp">
+                <div class="feature-center">
+                    <span class="counter js-counter" data-from="0" data-to="12402" data-speed="5000" data-refresh-interval="50">1</span>
+                    <span class="counter-label">Travelers</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 animate-box" data-animate-effect="fadeInUp">
+                <div class="feature-center">
+                    <span class="counter js-counter" data-from="0" data-to="12202" data-speed="5000" data-refresh-interval="50">1</span>
+                    <span class="counter-label">Happy Customer</span>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+

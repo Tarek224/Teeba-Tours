@@ -1,0 +1,535 @@
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\MVC_Teeba_Project.dll.config
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\MVC_Teeba_Project.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\MVC_Teeba_Project.pdb
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\csc.exe
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\csc.exe.config
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\csc.rsp
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\csi.exe
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\csi.exe.config
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\csi.rsp
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.Managed.Core.targets
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.AppContext.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Collections.Immutable.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Console.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.IO.Compression.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.IO.FileSystem.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.IO.Pipes.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Reflection.Metadata.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Security.AccessControl.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Security.Claims.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Security.Principal.Windows.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.ValueTuple.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Xml.XmlDocument.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Xml.XPath.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\vbc.exe
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\vbc.exe.config
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\vbc.rsp
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\VBCSCompiler.exe
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\VBCSCompiler.exe.config
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\Antlr3.Runtime.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\EntityFramework.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\EntityFramework.SqlServer.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.AspNet.Identity.Core.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Cookies.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Facebook.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Google.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.OAuth.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Twitter.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Web.Infrastructure.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\Newtonsoft.Json.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\Owin.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Helpers.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Mvc.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Optimization.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Razor.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.WebPages.Deployment.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.WebPages.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.WebPages.Razor.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\WebGrease.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Helpers.xml
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Mvc.xml
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Optimization.xml
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Razor.xml
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.WebPages.xml
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.WebPages.Deployment.xml
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.WebPages.Razor.xml
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\Newtonsoft.Json.xml
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\Antlr3.Runtime.pdb
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\EntityFramework.xml
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\EntityFramework.SqlServer.xml
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.AspNet.Identity.Core.xml
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.xml
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.xml
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Facebook.xml
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Cookies.xml
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Google.xml
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Twitter.xml
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.OAuth.xml
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\obj\Debug\MVC_Teeba_Project.csprojAssemblyReference.cache
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\obj\Debug\MVC_Teeba_Project.csproj.CoreCompileInputs.cache
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\obj\Debug\MVC_Teeba_Project.csproj.CopyComplete
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\obj\Debug\MVC_Teeba_Project.dll
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\obj\Debug\MVC_Teeba_Project.pdb
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\obj\Debug\MVC_Teeba_Project.Migrations.update.resources
+F:\ITI\Projects\MVC_Teeba_Project\MVC_Teeba_Project\obj\Debug\MVC_Teeba_Project.csproj.GenerateResource.cache
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\MVC_Teeba_Project.dll.config
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\MVC_Teeba_Project.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\MVC_Teeba_Project.pdb
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\csc.exe
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\csc.exe.config
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\csc.rsp
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\csi.exe
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\csi.exe.config
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\csi.rsp
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.Managed.Core.targets
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.AppContext.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Collections.Immutable.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Console.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.IO.Compression.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.IO.FileSystem.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.IO.Pipes.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Reflection.Metadata.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Security.AccessControl.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Security.Claims.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Security.Principal.Windows.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.ValueTuple.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Xml.XmlDocument.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Xml.XPath.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\vbc.exe
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\vbc.exe.config
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\vbc.rsp
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\VBCSCompiler.exe
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\VBCSCompiler.exe.config
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\Antlr3.Runtime.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\EntityFramework.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\EntityFramework.SqlServer.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.AspNet.Identity.Core.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Cookies.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Facebook.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Google.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.OAuth.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Twitter.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Web.Infrastructure.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\Newtonsoft.Json.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\Owin.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Helpers.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Mvc.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Optimization.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Razor.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.WebPages.Deployment.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.WebPages.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.WebPages.Razor.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\WebGrease.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Helpers.xml
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Mvc.xml
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Optimization.xml
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Razor.xml
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.WebPages.xml
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.WebPages.Deployment.xml
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.WebPages.Razor.xml
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\Newtonsoft.Json.xml
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\Antlr3.Runtime.pdb
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\EntityFramework.xml
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\EntityFramework.SqlServer.xml
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.AspNet.Identity.Core.xml
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.xml
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.xml
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Facebook.xml
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Cookies.xml
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Google.xml
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Twitter.xml
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.OAuth.xml
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\obj\Debug\MVC_Teeba_Project.csprojAssemblyReference.cache
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\obj\Debug\MVC_Teeba_Project.csproj.CoreCompileInputs.cache
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\obj\Debug\MVC_Teeba_Project.csproj.CopyComplete
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\obj\Debug\MVC_Teeba_Project.dll
+F:\AAAa\MVC_Teeba_Project\MVC_Teeba_Project\obj\Debug\MVC_Teeba_Project.pdb
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\MVC_Teeba_Project.dll.config
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\MVC_Teeba_Project.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\MVC_Teeba_Project.pdb
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\csc.exe
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\csc.exe.config
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\csc.rsp
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\csi.exe
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\csi.exe.config
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\csi.rsp
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.AppContext.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Console.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.IO.Compression.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Security.Claims.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.ValueTuple.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\vbc.exe
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\vbc.exe.config
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\vbc.rsp
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\VBCSCompiler.exe
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\Antlr3.Runtime.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\EntityFramework.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\EntityFramework.SqlServer.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\Newtonsoft.Json.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\Owin.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Helpers.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Mvc.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Optimization.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Razor.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.WebPages.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.WebPages.Razor.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\WebGrease.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Helpers.xml
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Mvc.xml
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Optimization.xml
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Razor.xml
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.WebPages.xml
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.WebPages.Razor.xml
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\Newtonsoft.Json.xml
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\Antlr3.Runtime.pdb
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\EntityFramework.xml
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\EntityFramework.SqlServer.xml
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.xml
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.xml
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\obj\Debug\MVC_Teeba_Project.csproj.AssemblyReference.cache
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\obj\Debug\MVC_Teeba_Project.csproj.CoreCompileInputs.cache
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\obj\Debug\MVC_Teeba_Project.csproj.CopyComplete
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\obj\Debug\MVC_Teeba_Project.dll
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\obj\Debug\MVC_Teeba_Project.pdb
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\obj\Debug\MVC_Teeba_Project.Migrations.asd.resources
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\obj\Debug\MVC_Teeba_Project.csproj.GenerateResource.cache
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\obj\Debug\MVC_Teeba_Project.Migrations.asd1.resources
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\obj\Debug\MVC_Teeba_Project.Migrations.asd2.resources
+C:\Users\Lillian\Desktop\MVC_Teeba_Project\MVC_Teeba_Project\obj\Debug\MVC_Teeba_Project.Migrations.asd3.resources
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\MVC_Teeba_Project.dll.config
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\MVC_Teeba_Project.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\MVC_Teeba_Project.pdb
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\csc.exe
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\csc.exe.config
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\csc.rsp
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\csi.exe
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\csi.exe.config
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\csi.rsp
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.Managed.Core.targets
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.AppContext.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Collections.Immutable.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Console.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.IO.Compression.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.IO.FileSystem.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.IO.Pipes.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Reflection.Metadata.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Security.AccessControl.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Security.Claims.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Security.Principal.Windows.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.ValueTuple.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Xml.XmlDocument.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Xml.XPath.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\vbc.exe
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\vbc.exe.config
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\vbc.rsp
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\VBCSCompiler.exe
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\VBCSCompiler.exe.config
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Antlr3.Runtime.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\EntityFramework.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\EntityFramework.SqlServer.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.AspNet.Identity.Core.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Cookies.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Facebook.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Google.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.OAuth.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Twitter.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Web.Infrastructure.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Newtonsoft.Json.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Owin.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Helpers.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Mvc.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Optimization.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Razor.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.WebPages.Deployment.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.WebPages.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.WebPages.Razor.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\WebGrease.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\EntityFramework.xml
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\EntityFramework.SqlServer.xml
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Helpers.xml
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Mvc.xml
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Optimization.xml
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Razor.xml
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.WebPages.xml
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.WebPages.Deployment.xml
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.WebPages.Razor.xml
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Newtonsoft.Json.xml
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Antlr3.Runtime.pdb
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.AspNet.Identity.Core.xml
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.xml
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.xml
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Facebook.xml
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Cookies.xml
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Google.xml
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Twitter.xml
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.OAuth.xml
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\obj\Debug\MVC_Teeba_Project.csproj.AssemblyReference.cache
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\obj\Debug\MVC_Teeba_Project.csproj.CoreCompileInputs.cache
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\obj\Debug\MVC_Teeba_Project.csproj.CopyComplete
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\obj\Debug\MVC_Teeba_Project.dll
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\obj\Debug\MVC_Teeba_Project.pdb
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\obj\Debug\MVC_Teeba_Project.Migrations.update.resources
+E:\ITI Corse\.Net\ASP.NET\MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\obj\Debug\MVC_Teeba_Project.csproj.GenerateResource.cache
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\MVC_Teeba_Project.dll.config
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\MVC_Teeba_Project.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\MVC_Teeba_Project.pdb
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\csc.exe
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\csc.exe.config
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\csc.rsp
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\csi.exe
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\csi.exe.config
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\csi.rsp
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.Managed.Core.targets
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.AppContext.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Collections.Immutable.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Console.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.IO.Compression.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.IO.FileSystem.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.IO.Pipes.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Reflection.Metadata.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Security.AccessControl.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Security.Claims.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Security.Principal.Windows.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.ValueTuple.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Xml.XmlDocument.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Xml.XPath.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\vbc.exe
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\vbc.exe.config
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\vbc.rsp
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\VBCSCompiler.exe
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\roslyn\VBCSCompiler.exe.config
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Antlr3.Runtime.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\EntityFramework.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\EntityFramework.SqlServer.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.AspNet.Identity.Core.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Cookies.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Facebook.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Google.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.OAuth.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Twitter.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Web.Infrastructure.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Newtonsoft.Json.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Owin.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Helpers.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Mvc.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Optimization.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Razor.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.WebPages.Deployment.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.WebPages.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.WebPages.Razor.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\WebGrease.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\EntityFramework.xml
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\EntityFramework.SqlServer.xml
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Helpers.xml
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Mvc.xml
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Optimization.xml
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.Razor.xml
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.WebPages.xml
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.WebPages.Deployment.xml
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\System.Web.WebPages.Razor.xml
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Newtonsoft.Json.xml
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Antlr3.Runtime.pdb
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.AspNet.Identity.Core.xml
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.xml
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.xml
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Facebook.xml
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Cookies.xml
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Google.xml
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.Twitter.xml
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.Owin.Security.OAuth.xml
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\obj\Debug\MVC_Teeba_Project.csproj.AssemblyReference.cache
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\obj\Debug\MVC_Teeba_Project.Migrations.update.resources
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\obj\Debug\MVC_Teeba_Project.csproj.GenerateResource.cache
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\obj\Debug\MVC_Teeba_Project.csproj.CoreCompileInputs.cache
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\obj\Debug\MVC_Teeba_Project.dll
+E:\ITI Corse\Back End\ASP.NET\ASP .NET MVC\Project\MVC_Teeba_Project\MVC_Teeba_Project\obj\Debug\MVC_Teeba_Project.pdb

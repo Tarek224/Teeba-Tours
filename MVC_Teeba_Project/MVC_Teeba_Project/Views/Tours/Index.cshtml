@@ -1,0 +1,113 @@
+﻿@model List<MVC_Teeba_Project.Models.Tour>
+
+@{
+    ViewBag.Title = "Tours";
+    ViewBag.HeaderImage = "ToursHeader.jpg";
+}
+
+@section HeaderContent
+{
+    <div class="col-md-12 col-md-offset-0 text-center">
+        <div class="row row-mt-15em">
+
+            <div class="col-md-12 mt-text animate-box" data-animate-effect="fadeInUp">
+                <h1 style="font-weight:bold">Planes For EveryOne</h1>
+            </div>
+        </div>
+    </div>
+}
+
+<div class="gtco-section border-bottom">
+    <div class="gtco-container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+                <h2>Choose The Best Plan For You</h2>
+                <p>
+                    Join over thousands of users. Enjoy the luxury of booking and join the best offers that we offer to our customers.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <a href="/Tours/TourDetails/@item.ID" class="fh5co-card-item">
+                        <figure>
+                            <img src="../../Content/images/Tours/@item.Images.image1" alt="Image" class="img-responsive">
+                        </figure>
+                        <div class="fh5co-text">
+                            <h2 style="font-weight:bold">@item.Price <small>/LE</small></h2>
+                            <p>@item.Title</p>
+                            <div style="padding-bottom:20px">
+                                <span class="fa fa-star" style="color: orange"></span>
+                                <span class="fa fa-star" style="color: orange"></span>
+                                <span class="fa fa-star" style="color: orange"></span>
+                                <span class="fa fa-star" style="color: orange"></span>
+                                <span class="fa fa-star" style="margin-right:10px"></span> 354 Reviews
+                            </div>
+                            <p><span class="btn btn-primary">More Info</span></p>
+                        </div>
+                    </a>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<div class="gtco-section">
+    <div class="gtco-container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
+                <h2>Frequently Ask Questions</h2>
+                <p>
+                    Here you will find answers to the most frequently asked questions that most customers are looking for.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <ul class="fh5co-faq-list">
+                    <li class="animate-box">
+                        <h2>How about housing?</h2>
+                        <p>
+                            The site provides all its customers with possible amenities in the best residential places in the best neighborhoods of each city.
+                        </p>
+                    </li>
+                    <li class="animate-box">
+                        <h2>
+                            What about transportation?
+                        </h2>
+                        <p>
+                            All our offices in every country have buses to transport our customers back and forth.
+                        </p>
+                    </li>
+                    <li class="animate-box">
+                        <h2>
+                            What is included in the price of each trip?
+                        </h2>
+                        <p>
+                            The price of each trip includes accommodation for the customer during all days of the trip, with transportation back and forth.
+                        </p>
+                    </li>
+                    <li class="animate-box">
+                        <h2>
+                            Will there be a tour guide accompany me?
+                        </h2>
+                        <p>
+                            Yeah . There will be a tour guide to accompany our customers during all days of the trip to provide our customers with all ways to enjoy the trip and its attractions.
+                        </p>
+                    </li>
+                    <li class="animate-box">
+                        <h2>
+                            Can I cancel my reservation at any time?
+                        </h2>
+                        <p>
+                            Yes, any of our customers can cancel the reservation within 24 hours only from the time of booking.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+

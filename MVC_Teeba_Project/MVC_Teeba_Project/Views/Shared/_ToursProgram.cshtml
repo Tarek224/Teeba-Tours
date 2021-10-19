@@ -1,0 +1,26 @@
+﻿@using MVC_Teeba_Project.Models
+
+@model List<Program>
+
+<table class="table">
+    <tr>
+        <td style="font-weight:bold">Day 1</td>
+        <td>
+            <div class="row">
+                @for (int item = 0; item < Model.Count(); item++)
+                {
+                    <div class="col-lg-3 col-md-6 col-sm-12" style="padding-left:25px ; padding-right:25px">
+                        <a href="/Places/PlaceDetails/@Model[item].Place_Id">
+                            <img src="../../Content/images/Luxor/@ViewBag.Places[item].Images.image1" alt="Image" class="img-responsive" style="width:280px;height:135px;padding:10px 0px">
+                        </a>
+                        <p style="font-size:15px">
+                            @Model[item].Name <br />
+                            @Model[item].Duration <br />
+                            <a href="/Places/PlaceDetails/@Model[item].Place_Id">Details & Photos</a>
+                        </p>
+                    </div>
+                }
+            </div>
+        </td>
+    </tr>
+</table>

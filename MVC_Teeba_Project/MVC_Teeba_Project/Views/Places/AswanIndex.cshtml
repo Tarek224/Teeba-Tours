@@ -1,0 +1,79 @@
+﻿@using MVC_Teeba_Project.Models
+
+@model Place
+
+@{
+    ViewBag.Title = "Aswan";
+    ViewBag.HeaderImage = "AswanHeader.jpg";
+}
+
+@section HeaderContent
+{
+    <div class="col-md-12 col-md-offset-0 text-center">
+        <div class="row row-mt-15em">
+
+            <div class="col-md-12 mt-text animate-box" data-animate-effect="fadeInUp">
+                <h1 style="font-weight:bold">Aswan City</h1>
+            </div>
+        </div>
+
+    </div>
+}
+
+<div class="gtco-section" style="padding: 5em 0 ">
+    <div class="gtco-container" style="box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19); padding: 3em 3em">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12" style="padding-left:25px ; padding-right:25px">
+                <h1 style="font-weight:bold ; text-align:center">About Luxor</h1>
+                <p style="font-size:20px ; color:rgba(0, 0, 0, 0.7)" id="translation">
+                    Visitors have been accepting tourism in Egypt for decades, as it was given its privileged position and the convergence of the continents of the ancient world, Asia, Africa and Europe through it, and if we say that Egypt has countless monuments, tourism in Aswan includes many of these attractions and what is more than historical monuments.
+                    Tourism in Aswan is not only ancient monuments, but there are many important Aswan landmarks, and the bright sun of Aswan is considered the most important landmark of this charming city, where European tourists come to seek warmth from the frosts of their country in the winter season, and also medical tourism flourishes in Aswan as well as recreational, and the reserves Natural scenery, great waterfalls and also the High Dam, a symbol of the struggle and success of the Egyptian people for development and prosperity, in addition to cruise trips in Aswan.
+                </p>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12" style="height:650px">
+                <a href="../../Content/images/Places/Luxor8.jpg" class="fh5co-card-item image-popup">
+                    <figure style="height:550px">
+                        <div class="overlay"><i class="ti-plus"></i></div>
+                        <img src="../../Content/images/Places/Luxor8.jpg" alt="Image" class="img-responsive">
+                    </figure>
+                    <div class="fh5co-text">
+                        <h2 style="font-weight:bold">Start Planning For Luxor</h2>
+                        <p>Create a Trip to save and organize all of your travel ideas, and see them on a map</p>
+                    </div>
+                </a>
+                <a href="../../Content/images/Places/Aswan1.jpg" class="fh5co-card-item image-popup"></a>
+                <a href="../../Content/images/Places/Aswan2.jpg" class="fh5co-card-item image-popup"></a>
+                <a href="../../Content/images/Places/Aswan3.jpg" class="fh5co-card-item image-popup"></a>
+                <a href="../../Content/images/Places/Aswan4.jpg" class="fh5co-card-item image-popup"></a>
+                <a href="../../Content/images/Places/Aswan5.jpg" class="fh5co-card-item image-popup"></a>
+                <a href="../../Content/images/Places/Aswan6.jpg" class="fh5co-card-item image-popup"></a>
+                <a href="../../Content/images/Places/Aswan7.jpg" class="fh5co-card-item image-popup"></a>
+                <a href="../../Content/images/Places/Aswan8.jpg" class="fh5co-card-item image-popup"></a>
+                <a href="../../Content/images/Places/Aswan9.jpg" class="fh5co-card-item image-popup"></a>
+                <a href="../../Content/images/Places/Aswan10.jpg" class="fh5co-card-item image-popup"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="gtco-section">
+    <div class="gtco-container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+                <h1 style="font-weight:bold">Trip With Your Favourite Destination Luxor</h1>
+                <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+            </div>
+        </div>
+        <div class="row">
+            @{
+                Html.RenderAction("AllPlaces", "Home", new { location = Location.Aswan });
+            }
+        </div>
+    </div>
+</div>
+
+@section scripts
+{
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+}
